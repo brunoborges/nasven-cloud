@@ -1,0 +1,9 @@
+{
+    "runtime": {
+        "majorVersion": "8"
+    },
+    "command": "jjs -cp dependencies.jar:. -scripting=true -DskipNasven=true nasven.js index.js",
+    "release": {
+        "version": "0.1"
+    }
+}
